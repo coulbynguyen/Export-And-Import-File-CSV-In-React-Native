@@ -1,0 +1,27 @@
+{
+  "name": "WriteFileCSV",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "cache": "^2.1.0",
+    "clean": "^4.0.2",
+    "firebase": "^5.5.7",
+    "install": "^0.12.2",
+    "react": "16.4.1",
+    "react-native": "0.56.0",
+    "rn-fetch-blob": "^0.10.13"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "babel-preset-react-native": "5.0.2",
+    "jest": "23.6.0",
+    "react-test-renderer": "16.4.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
